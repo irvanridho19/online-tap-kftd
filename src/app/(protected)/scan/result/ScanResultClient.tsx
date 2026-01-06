@@ -49,7 +49,7 @@ export default function ScanResultClient() {
     useEffect(() => {
         const t = setTimeout(() => {
             router.replace("/scan");
-        }, 3000);
+        }, 10000);
         return () => clearTimeout(t);
     }, [router]);
 
@@ -158,7 +158,7 @@ export default function ScanResultClient() {
                 </Link>
 
                 <div className="mt-2 text-xs text-slate-400">
-                    Auto return in 3 seconds
+                    Auto return in 10 seconds
                 </div>
             </div>
         </div>
