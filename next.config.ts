@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  turbopack: {},
 };
 
 // eslint-disable-next-line @typescript-eslint/no-require-imports
