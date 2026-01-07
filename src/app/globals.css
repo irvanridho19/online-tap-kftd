@@ -21,7 +21,14 @@
 
 html,
 body {
-  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden !important;
+}
+
+/* bantu cegah elemen flex/grid bikin overflow */
+* {
+  min-width: 0;
 }
 
 body {
